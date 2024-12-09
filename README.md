@@ -116,3 +116,15 @@ Check the development server:
 ```commandline
 hugo server
 ```
+
+## Build Docker image
+
+Select your desired [version](https://github.com/gohugoio/hugo/releases) of Hugo, for example 0.139.3:
+```commandline
+docker build -t bootstrap-website-hugo --build-arg HUGO_VERSION=0.139.3 .
+```
+
+After the image is built successfully, you can run a container based on this image:
+```commandline
+docker run -p 1313:80 bootstrap-website-hugo
+```
