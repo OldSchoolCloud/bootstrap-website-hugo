@@ -1,6 +1,6 @@
 +++
 date = '2024-12-07T22:58:09Z'
-draft = true
+draft = false
 title = 'Welcome to OldSchoolCloud'
 [Params]
 showHero = true

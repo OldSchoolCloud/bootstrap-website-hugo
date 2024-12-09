@@ -76,7 +76,7 @@ jobs:
           extended: true
 
       # Render Hugo static files
-      - name: Build
+      - name: Render Hugo static files
         run: hugo --minify
 
       # Build and push Docker image with Buildx
