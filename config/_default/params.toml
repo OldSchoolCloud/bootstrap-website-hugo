@@ -44,8 +44,8 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
 [homepage]
   layout = "profile" # valid options: page, profile, hero, card, background, custom
   #homepageImage = "IMAGE.jpg" # used in: hero, and card
-  showRecent = false
-  showRecentItems = 5
+  showRecent = true
+  showRecentItems = 3
   showMoreLink = false
   showMoreLinkDest = "/posts/"
   cardView = false
@@ -149,11 +149,11 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   # enableTrackEvent = true
 
 [buymeacoffee]
-  # identifier = ""
-  # globalWidget = true
-  # globalWidgetMessage = "Hello"
-  # globalWidgetColor = "#FFDD00"
-  # globalWidgetPosition = "Right"
+   identifier = "valerio.sh"
+   globalWidget = true
+   globalWidgetMessage = "Pssst!"
+   globalWidgetColor = "#FFDD00"
+   globalWidgetPosition = "Right"
 
 [verification]
   # google = ""
